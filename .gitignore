@@ -1,0 +1,9 @@
+*.env
+/venv
+/__pycache__
+messages/
+*.img
+.terraform/
+deployment/
+
+audio.webm

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+ *  Adapted from  https://github.com/webrtc/samples/tree/gh-pages/src/content/getusermedia/record
+ *  BSD-style license
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Web Audio Recording</title>
+  </head>
+
+  <body>
+    <h1>Web Audio Recording</h1>
+    <div id="container">
+      <audio id="gum" playsinline autoplay muted></audio>
+      <audio id="recorded" playsinline loop></audio>
+
+      <div>
+        <button id="record">Start Recording</button>
+      </div>
+
+      <div style="margin-top: 1rem">
+        Recording format:
+        <select id="codecPreferences" disabled></select>
+      </div>
+      <div>
+        <span id="errorMsg"></span>
+      </div>
+    </div>
+
+    <!-- include adapter for srcObject shim -->
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="./main.js" async></script>
+  </body>
+</html>
