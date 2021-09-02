@@ -34,6 +34,10 @@ When you hit the "Stop Recording" button
 on the frontend, the data is sent to the Flask
 webservice and a file audio.webm is created.
 
+## Prior Work
+
+Demo based on: https://github.com/webrtc/samples/tree/gh-pages/src/content/getusermedia/record
+
 ## License
 
 BSD License
